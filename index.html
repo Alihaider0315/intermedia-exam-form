@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <img width="150px" src="img/Intermediate_Education,_Karachi_Logo.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="head">
+                <u>
+                    <h2 class="head1">BOARD OF INTERMEDIATE EDUCATION, KARACHI</h2>
+                </u>
+                <h3 class="head2">EXAMINATION FORM FOR H.S.C. PART-I COMMERCE GROUP</h3>
+                <h3>FOR PRIVATE CANDIDATES ANNUAL 20 <input class="blank" id="displayinput" type="text"></h3>
+            </div>
+            <div>
+                <h1 class="head3">COMMERCE PRIVATE GROUP</h1>
+            </div>
+        </div>
+        <div class="full">
+            <div class="topmain">
+                <h1>CP-XI</h1>
+            </div>
+            <div class="image">
+                <form method="post">
+                    <input class="uplod" type="file" id="uplodimage">
+                </form>
+            </div>
+            <div class="fullform">
+                <form>
+                    <h4>NAME: <input type="text" placeholder="Enter Full Name" required id="name"> </h4>
+                    <h4>FATHER'S NAME: <input type="text" placeholder="Enter Father'sName" required id="father"> </h4>
+                    <h4>DATE OF BIRTH: <input type="date" required id="date"></h4>
+                    <h4>RESIDENTIAL ADDRESS: <input type="number" placeholder="Enter Address" required id="address"> </h4>
+                    <h4>E-mail: <input type="email" placeholder="Enter E-mail" required id="mail"> </h4>
+                    <h4>CONTACT #: <input type="number" placeholder="Enter CONTACT #" required id="contect"> </h4>
+                    <h4>C.N.I.C. No: <input type="number" placeholder="Enter C.N.I.C. No" required id="nic"> </h4>
+                    <h4>NATIONALITY: <input type="text" placeholder="Enter NATIONALITY" required id="national"> </h4>
+                    <h4>POST CODE: <input type="text" placeholder="Enter POST CODE" required id="post"> </h4>
+                </form>
+            </div>
+            <div class="nextdoor">
+                <h5 class="gender">Please Select Your Gender:</h5>
+                <label><input type="checkbox" name="check" onclick="onlyOne(this)">Male</label>
+                <label><input type="checkbox" name="check" onclick="onlyOne(this)">Female</label>
+                <label><input type="checkbox" name="check" onclick="onlyOne(this)">Other</label>
+                <form action="#">
+                    <h5 class="Region">Please Select Your Region:</h5>
+                    <select class="dropdown" id="droppop">
+                        <option value="select" selected>select</option>
+                        <option value="Islamic">Islamic</option>
+                        <option value="Non-Islamic">Non-Islamic</option>
+                    </select>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="gender">DETAILS OF PREVIOUS EXAMINATIONS PASSED / CLEARED</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>S. NO</th>
+                                <th>NAME OF EXAMINATION</th>
+                                <th>BOARD / EXAMINATION BODY</th>
+                                <th>ROLL NO.</th>
+                                <th>YEAR</th>
+                                <th>GRADE + MARKS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><input type="text" class="details" id="num"></th>
+                                <td><label><input type="checkbox" name="checked" onclick="subonly(this)">S.S.C. OR
+                                        EQUIVALENT</label>
+                                </td>
+                                <td><input type="text" class="detailss" id="bord"></td>
+                                <td><input type="text" class="details" id="rollno"></td>
+                                <td><input type="text" class="details" id="year"></td>
+                                <td><input type="text" class="details" id="grade"></td>
+                            </tr>
+                            <tr>
+                                <th><input type="text" class="details" id="num"></th>
+                                <td><label><input type="checkbox" name="checked" onclick="subonly(this)">H.S.C. PART-I
+                                        (EXTERNAL)</label></td>
+                                <td><input type="text" class="detailss" id="bord"></td>
+                                <td><input type="text" class="details" id="rollno"></td>
+                                <td><input type="text" class="details" id="year"></td>
+                                <td><input type="text" class="details" id="grade"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="documents">
+                <h1 class="gender">FOLLOWING DOCUMENTS MUST BE ATTACHED, ATTESTED BY THE CONCERNED PRINCIPAL</h1>
+                <ul class="doc">
+                    <li><input type="file" id="choose">(1)Attested Photocopy of S.S.C. Marks Sheet</li>
+                    <li><input type="file" id="choose1">(2) Photocopy of Registration Card</li>
+                    <li><input type="file" id="choose2">(3) Permission Letter (If Required)</li>
+                </ul>
+            </div>
+            <div class="subjects">
+                <h1 class="gender">PLEASE TICK ( ) AGAINST SUBJECT OF INTEREST IN THE EMPTY SPACE PROVIDED</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mainhead">COMPULSORY SUBJECTS</h4>
+                        <ul>
+                            <li><input type="checkbox" id="udru">URDU NORMAL</li>
+                            <li><input type="checkbox" id="essy">URDU EASY</li>
+                            <li><input type="checkbox" id="tong">URDU NON MOTHER TONGUE</li>
+                            <li><input type="checkbox" id="histroy">HISTORY & CULTURE OF PAKISTAN </li>
+                            <li><input type="checkbox" id="eng">ENGLISH NORMAL</li>
+                            <li><input type="checkbox" id="adv">ENGLISH ADVANCED</li>
+                            <li><input type="checkbox" id="islamiyat">ISLAMIAT</li>
+                            <li><input type="checkbox" id="civics">CIVICS(FOR NON MUSLIMS)</td>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mainhead">OPTIONAL SUBJECTS H.S.C. I</h4>
+                        <ul>
+                            <li><input type="checkbox" id="account">PRINCIPLE OF ACCOUNTING</li>
+                            <li><input type="checkbox" id="commerce">PRINCIPLE OF COMMERCE</li>
+                            <li><input type="checkbox" id="eco">PRINCIPLE OF ECONOMICS</li>
+                            <li><input type="checkbox" id="math">BUSINESS MATHEMATICS</td>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="button">
+                    <button onclick="getForm()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

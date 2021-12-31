@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #91d891;
+}
+.full{
+    background-color: white;
+    border: 5px double black;
+    padding: 10px;
+    margin: 0 0 50px 0;
+}
+.main{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 50px;
+    height: 20px;
+}
+.head{
+    text-align: center;
+}
+.head1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0 0 0 120px;
+}
+.head2{
+    margin: 0 0 0 80px;
+}
+.blank{
+    width: 20px;
+}
+.head3{
+    border: 2px solid #035c03;
+    width: 470px;
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    background-color: #035c03;
+}
+.topmain{
+    font-size: 30px;
+    color: #035c03;
+}
+.uplod{
+    border: 2px solid gray;
+    padding: 20px;
+    width: 180px;
+    height: 100px;
+}
+.fullform form{
+    margin: 20px auto;
+}
+.fullform input{
+    width: 450px;
+    height: 30px;
+}
+.fullform input[type="text"]{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fullform input[type="email"]{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fullform input[type="number"]{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fullform h4 {
+    color: #035c03;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fullform input[type="date"]{
+    font-size: 15px;
+    font-weight: bold;
+}
+.gender{
+    color: #035c03;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nextdoor label{
+    font-size: 25px;
+    padding: 10px;
+}
+.nextdoor label input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.dropdown{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+.Region{
+    margin: 20px auto;
+    color: #035c03;
+    font-size: 30px;
+    font-weight: bold;
+}
+.details{
+    border: none;
+    height: 25px;
+    width: 40px;
+}
+.detailss{
+    border: none;
+    height: 25px;
+}
+.table{
+    text-align: center;
+}
+.table,th,td{
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+}
+.doc{
+    font-size: 20px;
+    color: #035c03;
+    padding: 10px;
+}
+.mainhead{
+    font-size: 20px;
+    padding: 10px;
+}
+.subjects ul>li{
+    list-style: none;
+    font-size: 20px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    margin: 20px 0 20px 0px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 2px 5px 10px black;
+    border-radius: 50px;
+    background-color: #035c03;
+    border-color: #57e657;
+    color: white;
+    font-size: 30px;
+}
